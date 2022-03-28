@@ -24,7 +24,7 @@ export const LANGUAGES: any = {
     'stat.level': 'Nivel',
     'stat.souls': 'Almas',
     'stat.vitality': 'Vitalidad',
-    'stat.attunement': 'Atención',
+    'stat.attunement': 'Aprendizaje',
     'stat.endurance': 'Resistencia',
     'stat.strength': 'Fuerza',
     'stat.dexterity': 'Destreza',

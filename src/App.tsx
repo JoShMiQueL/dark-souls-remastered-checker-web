@@ -1,10 +1,11 @@
 import { Box, Container } from '@mui/material'
 import MenuBG from './assets/ui/menu_background_notransparency.png'
 import SampleImage from './assets/background_sample.jpg'
-import SampleImageBlur5 from './assets/background_sample_blur_x5.jpg'
 import SampleImageBlur10 from './assets/background_sample_blur_x10.png'
 import Frame from './assets/ui/frame.png'
 import StatList from './components/StatList'
+import { useEffect } from 'react'
+import Language from './components/Language'
 
 const App = () => {
   return (
@@ -51,6 +52,7 @@ const App = () => {
               backgroundPosition: 'center center'
             }}
           >
+            <Language />
             <Box
               sx={{
                 position: 'absolute',

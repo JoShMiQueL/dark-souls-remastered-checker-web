@@ -1,18 +1,15 @@
 import { Box } from '@mui/material'
 import { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
 import { setLocale } from '../../store/reducers/languageReducer'
 import EnglishLang from '../../assets/ui/english.png'
 import SpanishLang from '../../assets/ui/spanish.png'
-import ItalianLang from '../../assets/ui/italian.png'
-import FrenchLang from '../../assets/ui/french.png'
-import GermanLang from '../../assets/ui/german.png'
 import { LOCALES } from './translations'
 import styles from './index.module.scss'
+import { useAppDispatch, useAppSelector } from '../../store/hooks'
 
 const Language = () => {
-  const language = useSelector((state: any) => state.language.locale)
-  const dispatch = useDispatch()
+  const language = useAppSelector((state) => state.language.locale)
+  const dispatch = useAppDispatch()
   useEffect(() => {
     // This makes sure that the language is set to the default one
     const locale = localStorage.getItem('locale')
@@ -83,7 +80,7 @@ const Language = () => {
           language == 'es' ? ` ${styles['language--selected']}` : ''
         }`}
       />
-      <img
+      {/* <img
         id="lang-it"
         src={ItalianLang}
         onClick={handleClick}
@@ -106,7 +103,7 @@ const Language = () => {
         className={`${styles.language}${
           language == 'de' ? ` ${styles['language--selected']}` : ''
         }`}
-      />
+      /> */}
     </Box>
   )
 }

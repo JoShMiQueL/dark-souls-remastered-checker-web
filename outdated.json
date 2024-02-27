@@ -1,0 +1,163 @@
+{
+  "@emotion/react": {
+    "current": "11.8.2",
+    "wanted": "11.11.4",
+    "latest": "11.11.4",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@emotion/react"
+  },
+  "@emotion/styled": {
+    "current": "11.8.1",
+    "wanted": "11.11.0",
+    "latest": "11.11.0",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@emotion/styled"
+  },
+  "@mui/material": {
+    "current": "5.5.2",
+    "wanted": "5.15.11",
+    "latest": "5.15.11",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@mui/material"
+  },
+  "@reduxjs/toolkit": {
+    "current": "1.8.0",
+    "wanted": "1.9.7",
+    "latest": "2.2.1",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@reduxjs/toolkit"
+  },
+  "@testing-library/jest-dom": {
+    "current": "5.16.3",
+    "wanted": "5.17.0",
+    "latest": "6.4.2",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@testing-library/jest-dom"
+  },
+  "@testing-library/react": {
+    "current": "12.1.4",
+    "wanted": "12.1.5",
+    "latest": "14.2.1",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@testing-library/react"
+  },
+  "@testing-library/user-event": {
+    "current": "13.5.0",
+    "wanted": "13.5.0",
+    "latest": "14.5.2",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@testing-library/user-event"
+  },
+  "@types/jest": {
+    "current": "27.4.1",
+    "wanted": "27.5.2",
+    "latest": "29.5.12",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@types/jest"
+  },
+  "@types/node": {
+    "current": "16.11.26",
+    "wanted": "16.18.83",
+    "latest": "20.11.20",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@types/node"
+  },
+  "@types/react": {
+    "current": "17.0.43",
+    "wanted": "17.0.76",
+    "latest": "18.2.60",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@types/react"
+  },
+  "@types/react-dom": {
+    "current": "17.0.14",
+    "wanted": "17.0.25",
+    "latest": "18.2.19",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@types/react-dom"
+  },
+  "@types/react-redux": {
+    "current": "7.1.23",
+    "wanted": "7.1.33",
+    "latest": "7.1.33",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@types/react-redux"
+  },
+  "@types/sockjs-client": {
+    "current": "1.5.1",
+    "wanted": "1.5.4",
+    "latest": "1.5.4",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@types/sockjs-client"
+  },
+  "@types/websocket": {
+    "current": "1.0.5",
+    "wanted": "1.0.10",
+    "latest": "1.0.10",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/@types/websocket"
+  },
+  "react": {
+    "current": "17.0.2",
+    "wanted": "17.0.2",
+    "latest": "18.2.0",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/react"
+  },
+  "react-dom": {
+    "current": "17.0.2",
+    "wanted": "17.0.2",
+    "latest": "18.2.0",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/react-dom"
+  },
+  "react-redux": {
+    "current": "7.2.6",
+    "wanted": "7.2.9",
+    "latest": "9.1.0",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/react-redux"
+  },
+  "react-scripts": {
+    "current": "5.0.0",
+    "wanted": "5.0.0",
+    "latest": "5.0.1",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/react-scripts"
+  },
+  "sass": {
+    "current": "1.49.9",
+    "wanted": "1.71.1",
+    "latest": "1.71.1",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/sass"
+  },
+  "sockjs-client": {
+    "current": "1.6.0",
+    "wanted": "1.6.1",
+    "latest": "1.6.1",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/sockjs-client"
+  },
+  "typescript": {
+    "current": "4.6.3",
+    "wanted": "4.9.5",
+    "latest": "5.3.3",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/typescript"
+  },
+  "web-vitals": {
+    "current": "2.1.4",
+    "wanted": "2.1.4",
+    "latest": "3.5.2",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/web-vitals"
+  },
+  "ws": {
+    "current": "8.11.0",
+    "wanted": "8.16.0",
+    "latest": "8.16.0",
+    "dependent": "dark-souls-remastered-checker-web",
+    "location": "/home/runner/work/dark-souls-remastered-checker-web/dark-souls-remastered-checker-web/node_modules/ws"
+  }
+}

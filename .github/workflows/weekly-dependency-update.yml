@@ -1,0 +1,38 @@
+name: Weekly Dependency Update
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Run every Sunday at midnight
+
+jobs:
+  update-dependencies:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Check outdated dependencies
+      run: npm outdated --json > outdated.json || echo "No outdated dependencies"
+
+    - name: Update dependencies
+      run: |
+        if [ -s outdated.json ]; then
+          npm update
+          echo "Dependencies updated."
+        else
+          echo "No outdated dependencies, no changes needed."
+        fi
+
+    - name: Commit and Push Changes
+      uses: actions-js/push@v1.4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

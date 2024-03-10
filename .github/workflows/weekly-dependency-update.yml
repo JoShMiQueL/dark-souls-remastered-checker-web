@@ -33,11 +33,9 @@ jobs:
           echo "No outdated dependencies, no changes needed."
         fi
         
-    - name: Check for changes
-      id: git-check
-      run: |
-        git diff --exit-code || echo "::set-output name=changes_exist::true"
-        
+    - name: Pull latest changes
+      run: git pull origin main || echo "No changes to pull"
+      
     - name: Commit and Push Changes
       if: steps.git-check.outputs.changes_exist == 'true'
       uses: actions-js/push@v1.4

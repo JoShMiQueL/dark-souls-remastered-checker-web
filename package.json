@@ -22,7 +22,7 @@
     "socket.io-client": "^4.7.5",
     "sockjs-client": "^1.6.1",
     "typescript": "^5.5.4",
-    "web-vitals": "^4.2.2",
+    "web-vitals": "^4.2.3",
     "websocket": "^1.0.35",
     "ws": "^8.18.0"
   },

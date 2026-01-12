@@ -24,7 +24,7 @@
     "typescript": "^5.9.3",
     "web-vitals": "^5.1.0",
     "websocket": "^1.0.35",
-    "ws": "^8.18.3"
+    "ws": "^8.19.0"
   },
   "scripts": {
     "start": "react-scripts start",
